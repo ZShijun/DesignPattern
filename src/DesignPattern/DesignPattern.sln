@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Principles", "Principles", "{AAB03F68-1391-4829-BAF7-F5986FE773FF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Principles", "1. Principles", "{AAB03F68-1391-4829-BAF7-F5986FE773FF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPrinciple.Sample1", "Principles\DesignPrinciple.Sample1\DesignPrinciple.Sample1.csproj", "{F40D67DE-64BC-403C-83CB-39EEA1D1EAE9}"
 EndProject
@@ -14,6 +14,20 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPrinciple.Sample4", "Principles\DesignPrinciple.Sample4\DesignPrinciple.Sample4.csproj", "{5E7359F8-D376-460C-8591-B07523FE2671}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPrinciple.Sample5", "Principles\DesignPrinciple.Sample5\DesignPrinciple.Sample5.csproj", "{D7AF29C9-CB96-46C8-92DA-05C98F747E02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Patterns", "2. Patterns", "{45BA2799-4588-4F14-82A5-BE23FAB2F035}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.SimpleFactory", "Patterns\1. SimpleFactory\DesignPattern.SimpleFactory\DesignPattern.SimpleFactory.csproj", "{C4AC1D1F-F1C0-421F-91C4-16554AF7533E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. SimpleFactory", "1. SimpleFactory", "{DC1D3AF7-3688-4ADE-AA0D-A4CA63EB583E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. FactoryMethod", "2. FactoryMethod", "{BB57E397-771B-46B4-AA51-08241231C359}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.FactoryMethod", "Patterns\2. FactoryMethod\DesignPattern.FactoryMethod\DesignPattern.FactoryMethod.csproj", "{035F8506-A710-4FD2-854E-F6DEF9BEE028}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. AbstactFactory", "3. AbstactFactory", "{4EC7D73F-5135-43B0-BC15-6EDB72909988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.AbstactFactory", "Patterns\3. AbstactFactory\DesignPattern.AbstactFactory\DesignPattern.AbstactFactory.csproj", "{49A7227D-265C-4BF6-A44C-D7F3EB206D84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +55,18 @@ Global
 		{D7AF29C9-CB96-46C8-92DA-05C98F747E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7AF29C9-CB96-46C8-92DA-05C98F747E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7AF29C9-CB96-46C8-92DA-05C98F747E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4AC1D1F-F1C0-421F-91C4-16554AF7533E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4AC1D1F-F1C0-421F-91C4-16554AF7533E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4AC1D1F-F1C0-421F-91C4-16554AF7533E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4AC1D1F-F1C0-421F-91C4-16554AF7533E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{035F8506-A710-4FD2-854E-F6DEF9BEE028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035F8506-A710-4FD2-854E-F6DEF9BEE028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035F8506-A710-4FD2-854E-F6DEF9BEE028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035F8506-A710-4FD2-854E-F6DEF9BEE028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A7227D-265C-4BF6-A44C-D7F3EB206D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A7227D-265C-4BF6-A44C-D7F3EB206D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A7227D-265C-4BF6-A44C-D7F3EB206D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A7227D-265C-4BF6-A44C-D7F3EB206D84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +77,12 @@ Global
 		{F9418BC6-4017-4D4B-A19E-8CBF00CAB5E9} = {AAB03F68-1391-4829-BAF7-F5986FE773FF}
 		{5E7359F8-D376-460C-8591-B07523FE2671} = {AAB03F68-1391-4829-BAF7-F5986FE773FF}
 		{D7AF29C9-CB96-46C8-92DA-05C98F747E02} = {AAB03F68-1391-4829-BAF7-F5986FE773FF}
+		{C4AC1D1F-F1C0-421F-91C4-16554AF7533E} = {DC1D3AF7-3688-4ADE-AA0D-A4CA63EB583E}
+		{DC1D3AF7-3688-4ADE-AA0D-A4CA63EB583E} = {45BA2799-4588-4F14-82A5-BE23FAB2F035}
+		{BB57E397-771B-46B4-AA51-08241231C359} = {45BA2799-4588-4F14-82A5-BE23FAB2F035}
+		{035F8506-A710-4FD2-854E-F6DEF9BEE028} = {BB57E397-771B-46B4-AA51-08241231C359}
+		{4EC7D73F-5135-43B0-BC15-6EDB72909988} = {45BA2799-4588-4F14-82A5-BE23FAB2F035}
+		{49A7227D-265C-4BF6-A44C-D7F3EB206D84} = {4EC7D73F-5135-43B0-BC15-6EDB72909988}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9591F3E4-957B-49C1-B6E0-4C44E94AE163}
