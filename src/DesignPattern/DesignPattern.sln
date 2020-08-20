@@ -69,9 +69,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8. Proxy", "8. Proxy", "{9C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Delegate", "Patterns\8. Proxy\DesignPattern.Delegate\DesignPattern.Delegate.csproj", "{E0254F4F-2070-4BA5-AD47-324ACFF1A64C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.ProxyServer", "Patterns\8. Proxy\DesignPattern.ProxyServer\DesignPattern.ProxyServer.csproj", "{2C219B97-A791-4A35-B733-52E39DBFB47A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.ProxyServer", "Patterns\8. Proxy\DesignPattern.ProxyServer\DesignPattern.ProxyServer.csproj", "{2C219B97-A791-4A35-B733-52E39DBFB47A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.ProxyClient", "Patterns\8. Proxy\DesignPattern.ProxyClient\DesignPattern.ProxyClient.csproj", "{8C114190-55B7-40A9-9CC5-8CCFCB2C0539}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.ProxyClient", "Patterns\8. Proxy\DesignPattern.ProxyClient\DesignPattern.ProxyClient.csproj", "{8C114190-55B7-40A9-9CC5-8CCFCB2C0539}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9. Facade", "9. Facade", "{F4B19625-1B53-49EB-97BA-D29558DBF138}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Facade", "Patterns\9. Facade\DesignPattern.Facade\DesignPattern.Facade.csproj", "{F20A1F53-5C3C-4BD5-9E0A-887A9F4680B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Facade2", "Patterns\9. Facade\DesignPattern.Facade2\DesignPattern.Facade2.csproj", "{2E70AAB6-9D83-4FD9-A067-411DCABCA064}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -179,6 +185,14 @@ Global
 		{8C114190-55B7-40A9-9CC5-8CCFCB2C0539}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C114190-55B7-40A9-9CC5-8CCFCB2C0539}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C114190-55B7-40A9-9CC5-8CCFCB2C0539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F20A1F53-5C3C-4BD5-9E0A-887A9F4680B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20A1F53-5C3C-4BD5-9E0A-887A9F4680B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20A1F53-5C3C-4BD5-9E0A-887A9F4680B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20A1F53-5C3C-4BD5-9E0A-887A9F4680B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E70AAB6-9D83-4FD9-A067-411DCABCA064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E70AAB6-9D83-4FD9-A067-411DCABCA064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E70AAB6-9D83-4FD9-A067-411DCABCA064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E70AAB6-9D83-4FD9-A067-411DCABCA064}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -217,6 +231,9 @@ Global
 		{E0254F4F-2070-4BA5-AD47-324ACFF1A64C} = {9C1756DF-DD3D-4D0C-879A-3DA0C2457023}
 		{2C219B97-A791-4A35-B733-52E39DBFB47A} = {9C1756DF-DD3D-4D0C-879A-3DA0C2457023}
 		{8C114190-55B7-40A9-9CC5-8CCFCB2C0539} = {9C1756DF-DD3D-4D0C-879A-3DA0C2457023}
+		{F4B19625-1B53-49EB-97BA-D29558DBF138} = {45BA2799-4588-4F14-82A5-BE23FAB2F035}
+		{F20A1F53-5C3C-4BD5-9E0A-887A9F4680B7} = {F4B19625-1B53-49EB-97BA-D29558DBF138}
+		{2E70AAB6-9D83-4FD9-A067-411DCABCA064} = {F4B19625-1B53-49EB-97BA-D29558DBF138}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9591F3E4-957B-49C1-B6E0-4C44E94AE163}
