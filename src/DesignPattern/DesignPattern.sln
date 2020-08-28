@@ -87,9 +87,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Decorator2", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Decorator3", "Patterns\10. Decorator\DesignPattern.Decorator3\DesignPattern.Decorator3.csproj", "{A3E1BB43-4943-4A97-8BDE-DC3C1F24AEDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Decorator4", "Patterns\10. Decorator\DesignPattern.Decorator4\DesignPattern.Decorator4.csproj", "{FC36543F-AB02-4A1F-AD7A-33244B1AE565}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Decorator4", "Patterns\10. Decorator\DesignPattern.Decorator4\DesignPattern.Decorator4.csproj", "{FC36543F-AB02-4A1F-AD7A-33244B1AE565}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Decorator5", "Patterns\10. Decorator\DesignPattern.Decorator5\DesignPattern.Decorator5.csproj", "{65218550-C28C-42D7-8EA6-6B97D1751BCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Decorator5", "Patterns\10. Decorator\DesignPattern.Decorator5\DesignPattern.Decorator5.csproj", "{65218550-C28C-42D7-8EA6-6B97D1751BCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11. Bridge", "11. Bridge", "{367569E2-CDCA-4FE4-B614-9F42B55B5587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Bridge", "Patterns\11. Bridge\DesignPattern.Bridge\DesignPattern.Bridge.csproj", "{FB9F1CEA-8CF7-4E97-8FDD-9D0BEAA1D523}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Bridge2", "Patterns\11. Bridge\DesignPattern.Bridge2\DesignPattern.Bridge2.csproj", "{496CE412-5BBC-4504-ACB4-F60EEE604F73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +231,14 @@ Global
 		{65218550-C28C-42D7-8EA6-6B97D1751BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65218550-C28C-42D7-8EA6-6B97D1751BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65218550-C28C-42D7-8EA6-6B97D1751BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB9F1CEA-8CF7-4E97-8FDD-9D0BEAA1D523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9F1CEA-8CF7-4E97-8FDD-9D0BEAA1D523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9F1CEA-8CF7-4E97-8FDD-9D0BEAA1D523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9F1CEA-8CF7-4E97-8FDD-9D0BEAA1D523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{496CE412-5BBC-4504-ACB4-F60EEE604F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{496CE412-5BBC-4504-ACB4-F60EEE604F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{496CE412-5BBC-4504-ACB4-F60EEE604F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{496CE412-5BBC-4504-ACB4-F60EEE604F73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -272,6 +286,9 @@ Global
 		{A3E1BB43-4943-4A97-8BDE-DC3C1F24AEDE} = {E8A6D9EC-DE70-477E-A689-6B9EF07EFBB2}
 		{FC36543F-AB02-4A1F-AD7A-33244B1AE565} = {E8A6D9EC-DE70-477E-A689-6B9EF07EFBB2}
 		{65218550-C28C-42D7-8EA6-6B97D1751BCD} = {E8A6D9EC-DE70-477E-A689-6B9EF07EFBB2}
+		{367569E2-CDCA-4FE4-B614-9F42B55B5587} = {45BA2799-4588-4F14-82A5-BE23FAB2F035}
+		{FB9F1CEA-8CF7-4E97-8FDD-9D0BEAA1D523} = {367569E2-CDCA-4FE4-B614-9F42B55B5587}
+		{496CE412-5BBC-4504-ACB4-F60EEE604F73} = {367569E2-CDCA-4FE4-B614-9F42B55B5587}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9591F3E4-957B-49C1-B6E0-4C44E94AE163}
