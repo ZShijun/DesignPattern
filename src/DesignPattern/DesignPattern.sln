@@ -119,11 +119,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Flyweight6", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14. TemplateMethod", "14. TemplateMethod", "{6EC73479-4C12-408C-95B8-ECD9FEF0AB94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.TemplateMethod", "Patterns\14. TemplateMethod\DesignPattern.TemplateMethod\DesignPattern.TemplateMethod.csproj", "{760FCA0B-0E50-4424-9949-3A67D1A25478}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.TemplateMethod", "Patterns\14. TemplateMethod\DesignPattern.TemplateMethod\DesignPattern.TemplateMethod.csproj", "{760FCA0B-0E50-4424-9949-3A67D1A25478}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.TemplateMethod2", "Patterns\14. TemplateMethod\DesignPattern.TemplateMethod2\DesignPattern.TemplateMethod2.csproj", "{483994F7-E571-4E50-B97A-664B708F2BB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.TemplateMethod2", "Patterns\14. TemplateMethod\DesignPattern.TemplateMethod2\DesignPattern.TemplateMethod2.csproj", "{483994F7-E571-4E50-B97A-664B708F2BB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.TemplateMethod3", "Patterns\14. TemplateMethod\DesignPattern.TemplateMethod3\DesignPattern.TemplateMethod3.csproj", "{E065C2E2-08BE-486D-A2D3-8464DE3DCA0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.TemplateMethod3", "Patterns\14. TemplateMethod\DesignPattern.TemplateMethod3\DesignPattern.TemplateMethod3.csproj", "{E065C2E2-08BE-486D-A2D3-8464DE3DCA0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15. Strategy", "15. Strategy", "{4A2157EF-FDA4-4F1C-9CBE-3E3A1EBA4F61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Strategy", "Patterns\15. Strategy\DesignPattern.Strategy\DesignPattern.Strategy.csproj", "{BCCD870C-64BC-4093-A4BE-9958C928F380}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.Strategy2", "Patterns\15. Strategy\DesignPattern.Strategy2\DesignPattern.Strategy2.csproj", "{3A02BA0C-BC95-45D2-A637-C052711653F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.Strategy3", "Patterns\15. Strategy\DesignPattern.Strategy3\DesignPattern.Strategy3.csproj", "{2291F906-41FA-4697-B321-1C5F93097D3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -311,6 +319,18 @@ Global
 		{E065C2E2-08BE-486D-A2D3-8464DE3DCA0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E065C2E2-08BE-486D-A2D3-8464DE3DCA0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E065C2E2-08BE-486D-A2D3-8464DE3DCA0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCCD870C-64BC-4093-A4BE-9958C928F380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCCD870C-64BC-4093-A4BE-9958C928F380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCCD870C-64BC-4093-A4BE-9958C928F380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCCD870C-64BC-4093-A4BE-9958C928F380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A02BA0C-BC95-45D2-A637-C052711653F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A02BA0C-BC95-45D2-A637-C052711653F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A02BA0C-BC95-45D2-A637-C052711653F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A02BA0C-BC95-45D2-A637-C052711653F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2291F906-41FA-4697-B321-1C5F93097D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2291F906-41FA-4697-B321-1C5F93097D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2291F906-41FA-4697-B321-1C5F93097D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2291F906-41FA-4697-B321-1C5F93097D3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -375,6 +395,10 @@ Global
 		{760FCA0B-0E50-4424-9949-3A67D1A25478} = {6EC73479-4C12-408C-95B8-ECD9FEF0AB94}
 		{483994F7-E571-4E50-B97A-664B708F2BB0} = {6EC73479-4C12-408C-95B8-ECD9FEF0AB94}
 		{E065C2E2-08BE-486D-A2D3-8464DE3DCA0A} = {6EC73479-4C12-408C-95B8-ECD9FEF0AB94}
+		{4A2157EF-FDA4-4F1C-9CBE-3E3A1EBA4F61} = {45BA2799-4588-4F14-82A5-BE23FAB2F035}
+		{BCCD870C-64BC-4093-A4BE-9958C928F380} = {4A2157EF-FDA4-4F1C-9CBE-3E3A1EBA4F61}
+		{3A02BA0C-BC95-45D2-A637-C052711653F4} = {4A2157EF-FDA4-4F1C-9CBE-3E3A1EBA4F61}
+		{2291F906-41FA-4697-B321-1C5F93097D3B} = {4A2157EF-FDA4-4F1C-9CBE-3E3A1EBA4F61}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9591F3E4-957B-49C1-B6E0-4C44E94AE163}

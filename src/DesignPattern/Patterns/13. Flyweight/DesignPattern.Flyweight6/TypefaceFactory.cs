@@ -14,7 +14,7 @@ namespace DesignPattern.Flyweight6
 
         public static void SetTypeface(string key, Typeface typeface)
         {
-            if (!_typefaces.ContainsKey(key))
+            if (!_typefaces.ContainsKey(key)) 
             {
                 lock (_locker)
                 {
