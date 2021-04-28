@@ -6,13 +6,13 @@ namespace DesignPattern.State1
     {
         static void Main(string[] args)
         { 
-            TrafficLight light = new TrafficLight();
-            light.ChangeShineStrategy(new RedLightShineStrategy());
-            light.Shine();
-            light.ChangeShineStrategy(new GreenLightShineStrategy());
-            light.Shine();
-            light.ChangeShineStrategy(new YellowLightShineStrategy());
-            light.Shine();
+            TrafficLight light = new TrafficLight(new RedLightTurnStrategy());
+            light.Turn();
+            light.ChangeTurnStrategy(new GreenLightTurnStrategy());
+            light.Turn();
+            light.ChangeTurnStrategy(new YellowLightTurnStrategy());
+            light.Turn();
+            light.Turn();
         }
     }
 }

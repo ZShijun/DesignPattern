@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPattern.State2
+namespace DesignPattern.State3
 {
     public class TrafficLight
     {
@@ -17,7 +17,7 @@ namespace DesignPattern.State2
         {
             if (_currentState != null)
             {
-                _currentState.Handle();
+                _currentState.Handle(this);
             }
         }
 

@@ -4,9 +4,9 @@ using System.Text;
 
 namespace DesignPattern.State1
 {
-    public class RedLightShineStrategy : IShineStrategy
+    public class RedLightTurnStrategy : ITurnStrategy
     {
-        public void Shine()
+        public void Turn()
         {
             Console.WriteLine("红灯停");
         }

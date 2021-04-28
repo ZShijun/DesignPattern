@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPattern.State2
+namespace DesignPattern.State4
 {
     class Program
     {
@@ -8,9 +8,7 @@ namespace DesignPattern.State2
         {
             TrafficLight light = new TrafficLight();
             light.Turn();
-            light.SetState(new GreenState());
             light.Turn();
-            light.SetState(new YellowState());
             light.Turn();
             light.Turn();
         }

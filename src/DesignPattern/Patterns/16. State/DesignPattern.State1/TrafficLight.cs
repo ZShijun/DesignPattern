@@ -6,19 +6,24 @@ namespace DesignPattern.State1
 {
     public class TrafficLight
     {
-        private IShineStrategy _shineStrategy;
+        private ITurnStrategy _turnStrategy;
 
-        public void Shine()
+        public TrafficLight(ITurnStrategy turnStrategy)
         {
-            if (_shineStrategy != null)
+            _turnStrategy = turnStrategy;
+        }
+
+        public void Turn()
+        {
+            if (_turnStrategy != null)
             {
-                _shineStrategy.Shine();
+                _turnStrategy.Turn();
             }
         }
 
-        public void ChangeShineStrategy(IShineStrategy shineStrategy)
+        public void ChangeTurnStrategy(ITurnStrategy turnStrategy)
         {
-            _shineStrategy = shineStrategy;
+            _turnStrategy = turnStrategy;
         }
     }
 }

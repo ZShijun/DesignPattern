@@ -4,8 +4,8 @@ using System.Text;
 
 namespace DesignPattern.State1
 {
-    public interface IShineStrategy
+    public interface ITurnStrategy
     {
-        void Shine();
+        void Turn();
     }
 }
