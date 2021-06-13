@@ -4,16 +4,16 @@ using System.Text;
 
 namespace DesignPattern.ChainOfResponsibility5
 {
-    public class HR
+    public class ManagerBuilder: IManagerBuilder
     {
-        private List<Manager> _managers = new List<Manager>();
+        private readonly List<Manager> _managers = new List<Manager>();
 
         public void AddManager(Manager manager)
         {
             _managers.Add(manager);
         }
 
-        public Manager GetManager()
+        public Manager Build()
         {
             Manager currentManager = null;
             for (int i = _managers.Count - 1; i >= 0; i--)

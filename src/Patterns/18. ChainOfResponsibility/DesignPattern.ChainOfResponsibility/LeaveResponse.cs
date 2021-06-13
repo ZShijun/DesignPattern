@@ -18,6 +18,5 @@ namespace DesignPattern.ChainOfResponsibility
         /// 是否同意
         /// </summary>
         public bool IsAgreed { get; set; }
-
     }
 }
